@@ -12,24 +12,22 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Sagi Grimberg</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
-        </p>
+	  <a href="mailto:sagi@grimberg.me">sagi@grimberg.me</a>
+	</p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        Alumni, and the VP of Engineering at{' '}
-        <a href="https://smileidentity.com">Smile Identity</a>. Previously, I
-        was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>,
-        co-founder of <a href="https://matroid.com">Matroid</a>, and worked at{' '}
-        <a href="https://planet.com">Planet</a> and{' '}
-        <a href="https://facebook.com">Facebook</a>.
+        Hi, I&apos;m Sagi. I am a SW engineer with a pure orientation to realtime systems. I&apos;m
+        currently living in Kfar Saba, Israel and enjoying my time at home between positions.
+        Previously, I was a co-founder and CTO of <a href="https://lightbits.com">Lightbits</a>,
+        and worked at Mellanox (now {' '}<a href="https://nvidia.com">NVIDIA</a>). I also try to
+        contribute regularly to the Linux Kernel and help maintain the <a href="https://git.infradead.org/nvme.git">NVMe Subsystem
+        </a>.
       </p>
       <ul className="actions">
         <li>
@@ -48,9 +46,13 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
+<<<<<<< HEAD
       <p className="copyright">
         &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
       </p>
+=======
+      <p className="copyright">&copy; Sagi Grimberg <Link to="/">grimberg.me</Link>.</p>
+>>>>>>> 24214d4bbbf9 (Modify to my info)
     </section>
   </section>
 );

@@ -5,10 +5,8 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
-    }
+    description={"Sagi Grimberg's personal website. Israel based, "
+    + 'Enjoying at home, previously co-founder and CTO at Lightbits, and a Linux kernel contributor/maintainer.'}
   >
     <article className="post" id="index">
       <header>
@@ -17,8 +15,8 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+            A reasonable, responsive, statically-generated,
+            react application written with Javascript.
           </p>
         </div>
       </header>
@@ -35,6 +33,7 @@ const Index = () => (
         Source available{' '}
         <a href="https://github.com/mldangelo/personal-site">here</a>.
       </p>
+      <p> Source available <a href="https://github.com/sagigrimberg/personal-site">here</a>.</p>
     </article>
   </Main>
 );
