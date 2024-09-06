@@ -14,11 +14,7 @@ const Index = () => (
         </div>
       </header>
       <p>
-        I am currently unemployed. Before, I was a co-founder & CTO at
-        [Lightbits](https://lightbitslabs.com). Outside of my day job,
-        I try to regularly contribute to the Linux Kernel I/O stack and help maintain the Linux
-        [NVMe subsystem](http://git.infradead.org/nvme.git) and iSER drivers. If you would like
-        to get in touch, please feel free to do so.
+        I am currently unemployed.
       </p>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
