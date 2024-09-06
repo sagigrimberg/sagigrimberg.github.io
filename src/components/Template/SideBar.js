@@ -14,8 +14,8 @@ const SideBar = () => (
       <header>
         <h2>Sagi Grimberg</h2>
         <p>
-	  <a href="mailto:sagi@grimberg.me">sagi@grimberg.me</a>
-	</p>
+          <a href="mailto:sagi@grimberg.me">sagi@grimberg.me</a>
+        </p>
       </header>
     </section>
 
@@ -26,8 +26,7 @@ const SideBar = () => (
         currently living in Kfar Saba, Israel and enjoying my time at home between positions.
         Previously, I was a co-founder and CTO of <a href="https://lightbits.com">Lightbits</a>,
         and worked at Mellanox (now {' '}<a href="https://nvidia.com">NVIDIA</a>). I also try to
-        contribute regularly to the Linux Kernel and help maintain the <a href="https://git.infradead.org/nvme.git">NVMe Subsystem
-        </a>.
+        contribute regularly to the Linux Kernel and help maintain the <a href="https://git.infradead.org/nvme.git">NVMe Subsystem</a>.
       </p>
       <ul className="actions">
         <li>
@@ -46,13 +45,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-<<<<<<< HEAD
-      <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
-      </p>
-=======
       <p className="copyright">&copy; Sagi Grimberg <Link to="/">grimberg.me</Link>.</p>
->>>>>>> 24214d4bbbf9 (Modify to my info)
     </section>
   </section>
 );
