@@ -13,9 +13,19 @@
  */
 const work = [
   {
+    name: 'Vast Data',
+    position: 'VP of Architecture',
+    url: 'https://vastdata.com',
+    startDate: '2024-03-01',
+    // endDate: 'Present',
+    summary: '.',
+    highlights: [
+    ],
+  },
+  {
     name: 'Lightbits Labs',
     position: 'Co-founder and CTO',
-    url: 'http://lightbitslabs.com',
+    url: 'https://lightbitslabs.com',
     startDate: '2016-03-01',
     endDate: '2024-02-01',
     summary: '.',
@@ -28,8 +38,7 @@ const work = [
     url: 'https://nvidia.com',
     startDate: '2010-03-01',
     endDate: '2016-03-01',
-    summary: `................................................................................
-    ........`,
+    summary: '.',
     highlights: [
     ],
   },
