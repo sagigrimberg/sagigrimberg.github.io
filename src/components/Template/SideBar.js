@@ -22,8 +22,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Sagi. I am a SW engineer with a pure orientation to realtime systems. I&apos;m
-        currently living in Kfar Saba, Israel and enjoying my time at home between positions.
+        Hi, I&apos;m Sagi. I am a SW engineer with a pure orientation to realtime systems, with
+        deep understanding in storage, networking, virtualization and distributed systems.
+        I&apos;m currently living in Kfar Saba, Israel and enjoying my time balancing between my
+        <a href="https://vastdata.com"> day job</a> and my family and friends.
         Previously, I was a co-founder and CTO of <a href="https://lightbits.com">Lightbits</a>,
         and worked at Mellanox (now {' '}<a href="https://nvidia.com">NVIDIA</a>). I also try to
         contribute regularly to the Linux Kernel and help maintain the <a href="https://git.infradead.org/nvme.git">NVMe Subsystem</a>.
