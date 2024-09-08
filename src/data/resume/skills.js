@@ -30,8 +30,13 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
+    title: 'VectorDB',
+    competency: 4,
+    category: ['AI', 'Databases'],
+  },
+  {
     title: 'SQL/PostgreSQL/SQLite',
-    competency: 3,
+    competency: 4,
     category: ['Cloud', 'Databases', 'Languages'],
   },
   {
